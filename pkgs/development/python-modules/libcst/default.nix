@@ -16,7 +16,7 @@
 
 buildPythonPackage rec {
   pname = "libcst";
-  version = "0.4.0";
+  version = "0.3.23";
   format = "setuptools";
 
   disabled = pythonOlder "3.6";
@@ -25,7 +25,7 @@ buildPythonPackage rec {
     owner = "instagram";
     repo = pname;
     rev = "v${version}";
-    sha256 = "1cs0prrv9zgm3gbnshkb9lhw41aqbjgyfyvk8vfjqx9k3hgvzl53";
+    sha256 = "1r4aiqpndqa75119faknsghi7zxyjrx5r6i7cb3d0liwiqrkzrvx";
   };
 
   postPatch = ''
